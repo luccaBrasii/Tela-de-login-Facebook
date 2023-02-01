@@ -1,0 +1,147 @@
+body, html{
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    height: 500px;
+}
+.corpo{
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.clear{
+    clear: both;
+}
+.cega{
+    margin-right: 60px;
+}
+.principal{
+    width: 600px;
+    margin-left: 10%;   
+    margin-top: 50px; 
+}
+
+.principal img{
+    width: 300px;
+    margin-bottom: -40px;
+    margin-left: -30px;
+}
+.principal p{
+    font-size: 30px;
+}
+
+.login{
+    width: 350px;
+    background-color: #ffff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.301);
+    text-align: center;
+    max-height: 350px;
+}
+.login input{
+    width: 300px;
+    margin: 10px 10px;
+    padding: 15px;
+    border: 0.5px solid #90a1c64b;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.login button{
+    width: 335px ;
+    margin: 10px 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    height: 50px;
+    cursor: pointer;
+    color:#ffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.login input:focus{
+    outline: none;
+    border: 0.5px solid #1568d4;
+}
+
+.login button:first-of-type{
+    background-color: #1877f2;
+    margin-bottom: 20px;
+    
+}
+.login button:first-of-type:hover{
+    background-color: #1568d4;
+    
+}
+.login a{
+    text-decoration: none;
+    color: #1568d4;
+    font-size: 14px;
+}
+.login a:hover{
+    text-decoration:underline
+}
+hr{
+    margin-top: 15px;
+    border-color: rgb(255, 255, 255,0.5);
+}
+.login button:last-of-type{
+    background-color: #42b72a;
+    width: 180px;
+}
+.login button:last-of-type:hover{
+    background-color: #379723;
+}
+.celebridade{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+.celebridade a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+footer{
+    position:inherit;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 12px;
+    color: gray;
+    word-spacing: 20px;
+
+}
+
+.texto-rodape{
+    cursor: pointer;
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .corpo{
+        display: block;
+        
+    }
+    .principal{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .login{
+        margin: 0 auto;
+    }
+    .cega{
+        width: 100%; 
+        margin: 0 auto;
+    }
+    .texto-rodape{
+        width: 100%;
+    }
+}
